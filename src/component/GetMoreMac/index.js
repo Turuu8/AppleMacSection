@@ -7,7 +7,7 @@ import { styles } from "./styles";
 
 const SectionGetMoreMac = () => {
   return (
-    <Box style={{ paddingTop: "150px", textAlign: "center" }}>
+    <Box style={{ paddingTop: "150px", display: "flex", flexDirection: "column", justifyContent: "center" }}>
       <Box width="980px" m="auto">
         <Typography variant="h2" fontWeight="600" height="68px">
           Get more out of Mac
@@ -17,10 +17,10 @@ const SectionGetMoreMac = () => {
       {GetmoreoutofMac.map((el, i) => (
         <SectionPromoApps key={i} {...el} />
       ))}
-      <Box sx={styles.sectionDetail}>
-        {GetmoreoutofMacApps.map((el, i) => (
+      <Box maxWidth="1440px" ml="auto" mr="auto" sx={styles.sectionDetail}>
+        {/* {GetmoreoutofMacApps.map((el, i) => (
           <SectionPromoAppsDetail key={i} {...el} />
-        ))}
+        ))} */}
       </Box>
     </Box>
   );

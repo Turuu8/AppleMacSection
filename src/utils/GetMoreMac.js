@@ -80,3 +80,36 @@ export const GetmoreoutofMacApps = [
     position: "top",
   },
 ];
+
+export const GiftCardItems = [{
+  url: "",
+  width: "",
+  height: "",
+  headUrl: "",
+  headUrlWidth: "",
+  headUrlHeight: "",
+  intro: "For everything and everyone.",
+  learnMore: "Learn more >",
+  buy: "Buy",
+}]
+
+export const AppleWorkEducation = [
+  {
+    backUrl: "",
+    backWidth: "",
+    backHeight: "",
+    headline: "Apple at Work",
+    intro: "Get the power to take your business to the next level.",
+    learn: "Learn about Apple at Work >",
+    whyMac: "See why Mac means business >"
+  },
+  {
+    backUrl: "",
+    backWidth: "",
+    backHeight: "",
+    headline: "Apple and Education",
+    intro: "Empowering educators and students to move the world forward.",
+    learn: "Learn about Apple and Education >",
+    whyMac: ""
+  },
+]
