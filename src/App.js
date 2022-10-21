@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  Navbar,
+  SectionMacbookAir,
+  SectionMacbookPro,
+  Retail,
+  PromoSection,
+  SectionWhatMakesMac,
+  Apps,
+} from "./component";
+import SectionGetMoreMac from "./component/GetMoreMac";
+import { CustomTheme } from "./context";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CustomTheme>
+      <Navbar />
+      <SectionMacbookAir />
+      <SectionMacbookPro />
+      <PromoSection />
+      <Retail />
+      <SectionWhatMakesMac />
+      <Apps />
+      <SectionGetMoreMac />
+    </CustomTheme>
   );
 }
 
