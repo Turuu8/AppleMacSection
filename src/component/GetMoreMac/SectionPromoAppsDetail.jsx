@@ -3,7 +3,7 @@ import { styles } from "./styles";
 
 const SectionPromoAppsDetail = (props) => {
   return (
-    <Box sx={styles.sectiobDetailOne}>
+    <Box width="1440px" sx={styles.sectiobDetailOne} >
       <Box
         width="100%"
         height="100%"
