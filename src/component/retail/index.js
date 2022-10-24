@@ -10,7 +10,7 @@ import { SectionStripItems } from "../../utils/Strip";
 
 export const Retail = () => {
   return (
-    <>
+    <Box maxWidth="1440px">
       <BannerImage />
       {/* ------------- CART PROMO ------------- */}
       <Box component="div" width="100%">
@@ -47,6 +47,6 @@ export const Retail = () => {
         ))}
       </Box>
       {/* ------------- THE STRIP ------------- */}
-    </>
+    </Box>
   );
 };

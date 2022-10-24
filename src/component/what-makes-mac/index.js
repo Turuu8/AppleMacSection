@@ -13,12 +13,15 @@ export const SectionWhatMakesMac = () => {
         </Typography>
         <Box mt="80px"></Box>
       </Box>
-      <Box sx={styles.tileGrid}>
-        {WhatMakesMacItmes.map((el, i) => (
-          <SectionTileGrid key={i} {...el} />
-        ))}
+      <Box width="100%" maxWidth="1440px">
+        <Box sx={styles.tileGrid}>
+          {WhatMakesMacItmes.map((el, i) => (
+            <SectionTileGrid key={i} {...el} />
+          ))}
+        </Box>
       </Box>
-      <Box component="div" width="100%">
+
+      <Box component="div" width="100%" maxWidth="1440px">
         <Box
           height="509px"
           margin="30px 2.08333%"

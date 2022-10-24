@@ -38,16 +38,14 @@ export const globalnavItmes = [
   {
     url: "https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__yzte50i47ciu_large.svg",
   },
-  // { title: "Store" },
-  // { title: "Mac" },
-  // { title: "iPad" },
-  // { title: "iPhone" },
-  // { title: "Watch" },
-  // { title: "AirPods" },
-  // { title: "TV & Home" },
-  // { title: "Only on Apple" },
-  // { title: "Accessories" },
-  // { title: "Support" },
+];
+export const globalnavItmeResponsive = [
+  {
+    url: "https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_small.svg",
+  },
+  {
+    url: "https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__yzte50i47ciu_small.svg",
+  },
 ];
 
 export const chapternavProduct = [

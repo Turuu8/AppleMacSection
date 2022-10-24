@@ -1,7 +1,7 @@
 export const styles = {
   globalnav: {
     width: "100%",
-    height: "44px",
+    height: { xs: "48px", md: "44px" },
     backgroundColor: "primary.secondary",
     display: "flex",
     justifyContent: "center",
@@ -23,7 +23,7 @@ export const styles = {
   },
   chapternav: {
     boxSizing: "border-box",
-    padding: "8px 0 0 8px",
+    margin: "8px 0  0 8px ",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -40,7 +40,6 @@ export const styles = {
   },
   ribbonContentWrapper: {
     width: "100%",
-    height: "50px",
     backgroundColor: "primary.light",
     display: "flex",
     justifyContent: "center",

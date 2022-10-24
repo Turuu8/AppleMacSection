@@ -50,8 +50,6 @@ export const SectionBuiltApps = ({
               <img
                 src={url}
                 alt="ok"
-                // width="48px"
-                // height="59px"
                 style={{
                   marginBottom: "5px",
                   width: `${tabnavItemsWidth}`,

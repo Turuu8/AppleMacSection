@@ -1,3 +1,4 @@
+import { Box } from "@mui/system";
 import {
   Navbar,
   SectionMacbookAir,
@@ -6,21 +7,25 @@ import {
   PromoSection,
   SectionWhatMakesMac,
   Apps,
+  Footer,
+  SectionGetMoreMac,
 } from "./component";
-import SectionGetMoreMac from "./component/GetMoreMac";
 import { CustomTheme } from "./context";
 
 function App() {
   return (
     <CustomTheme>
-      <Navbar />
-      <SectionMacbookAir />
-      <SectionMacbookPro />
-      <PromoSection />
-      <Retail />
-      <SectionWhatMakesMac />
-      <Apps />
-      <SectionGetMoreMac />
+      <Box display="flex" flexDirection="column" alignItems="center">
+        <Navbar />
+        <SectionMacbookAir />
+        <SectionMacbookPro />
+        <PromoSection />
+        <Retail />
+        <SectionWhatMakesMac />
+        <Apps />
+        <SectionGetMoreMac />
+        <Footer />
+      </Box>
     </CustomTheme>
   );
 }

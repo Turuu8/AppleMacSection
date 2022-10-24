@@ -6,3 +6,5 @@ export * from "./compare-promo-section/PromoSection";
 export * from "./what-makes-mac/index";
 export * from "./apps/index";
 export * from "./GetMoreMac/index";
+export * from "./footer/index";
+export * from "./GetMoreMac/index";

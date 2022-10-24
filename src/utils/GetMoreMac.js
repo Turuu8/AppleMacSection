@@ -29,6 +29,7 @@ export const GetmoreoutofMacApps = [
     backHeight: "",
     backColor: "#090a0e",
     position: "bottom",
+    height: "579px",
   },
   {
     headlineUrl:
@@ -45,7 +46,8 @@ export const GetmoreoutofMacApps = [
     backWidth: "469px",
     backHeight: "277px",
     backColor: "#fbfafc",
-    position: "bottom",
+    position: "50% 90%;",
+    height: "579px",
   },
   {
     headlineUrl:
@@ -62,6 +64,7 @@ export const GetmoreoutofMacApps = [
     backHeight: "305px",
     backColor: "#fbfafc",
     position: "bottom",
+    height: "600px",
   },
   {
     headlineUrl:
@@ -77,39 +80,46 @@ export const GetmoreoutofMacApps = [
     backWidth: "675px",
     backHeight: "600px",
     backColor: "#fa3455",
-    position: "top",
+    position: "right 50% bottom 100%",
+    height: "600px",
   },
 ];
 
-export const GiftCardItems = [{
-  url: "",
-  width: "",
-  height: "",
-  headUrl: "",
-  headUrlWidth: "",
-  headUrlHeight: "",
-  intro: "For everything and everyone.",
-  learnMore: "Learn more >",
-  buy: "Buy",
-}]
-
-export const AppleWorkEducation = [
+export const GiftCardItems = [
   {
-    backUrl: "",
-    backWidth: "",
-    backHeight: "",
+    url: "https://www.apple.com/v/mac/home/bq/images/overview/get-more/apple-gift-card/apple_gift_card_tile__d777mr3okcom_large_2x.jpg",
+    width: "978px",
+    height: "346px",
+    headUrl:
+      "https://www.apple.com/v/mac/home/bq/images/overview/get-more/apple-gift-card/apple_gift_card_logo__es2vdqwat126_large_2x.png",
+    headUrlWidth: "209px",
+    headUrlHeight: "39px",
+    intro: "For everything and everyone.",
+    learnMore: "Learn more >",
+    buy: "Buy >",
+    displayL: "none",
+  },
+];
+
+export const AppleWorkEducationItems = [
+  {
+    backUrl:
+      "https://www.apple.com/v/mac/home/bq/images/overview/get-more/business__dhhbnntkcwuq_large_2x.jpg",
+    backWidth: "1380px ",
+    backHeight: "600px",
     headline: "Apple at Work",
     intro: "Get the power to take your business to the next level.",
     learn: "Learn about Apple at Work >",
-    whyMac: "See why Mac means business >"
+    whyMac: "See why Mac means business >",
   },
   {
-    backUrl: "",
-    backWidth: "",
-    backHeight: "",
+    backUrl:
+      "https://www.apple.com/v/mac/home/bq/images/overview/get-more/education__bq047y5fu7n6_large_2x.jpg",
+    backWidth: "1380px ",
+    backHeight: "600px",
     headline: "Apple and Education",
     intro: "Empowering educators and students to move the world forward.",
     learn: "Learn about Apple and Education >",
-    whyMac: ""
+    whyMac: "",
   },
-]
+];

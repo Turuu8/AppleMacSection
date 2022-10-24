@@ -16,31 +16,25 @@ export const NewProduct = ({
   return (
     <>
       <ListItemText
-        primaryTypographyProps={{ fontSize: "17px", fontWeight: "500" }}
+        primaryTypographyProps={{
+          fontSize: { xs: "14px", md: "17px" },
+          fontWeight: "500",
+        }}
         primary={period}
         sx={{ color: "secondary.main", padding: "0" }}
       />
       <Typography
         sx={{ fontWeight: "500", lineHeight: 1.07143, color: `${color}` }}
-        fontSize="56px"
+        fontSize={{ xs: "48px", md: "56px" }}
       >
         {productName}
       </Typography>
-      {/* <ListItemText
-        primaryTypographyProps={{ fontSize: "56px", fontWeight: "600" }}
-        primary={productName}
-      /> */}
       <Typography
         sx={{ fontWeight: "500", lineHeight: 1.14286, color: `${color}` }}
-        fontSize="28px"
+        fontSize={{ xs: "24px", md: "28px" }}
       >
         {eyeBrow}
       </Typography>
-      {/* <ListItemText
-        primaryTypographyProps={{ fontSize: "28px", fontWeight: "600" }}
-        sx={{ marginBottom: " 0 0 0 11px" }}
-        primary={eyeBrow}
-      /> */}
       <ListItemText
         primaryTypographyProps={{ fontSize: "17px", fontWeight: "300" }}
         sx={{ marginTop: "1.35em", color: `${color}` }}
@@ -77,11 +71,9 @@ export const NewProduct = ({
         />
       </Box>
       <Box
-        // position="absolute"
-        // bottom="0"
         component="img"
-        width={width}
-        height={height}
+        width={{ xs: `${width - 151}px`, md: `${width}px` }}
+        height={{ xs: `${height - 100}px`, md: `${height}px` }}
         src={url}
       />
     </>
@@ -143,7 +135,6 @@ export const PromoProductSection = ({
             display="flex"
             flexDirection="column"
             alignItems="center"
-            // justifyContent="center"
             height="144px"
             sx={{ padding: `0 ${pad}` }}
           >
@@ -547,6 +538,7 @@ export const Bannar = ({
     bannerImage: {
       backgroundImage: `url(${url})`,
       backgroundSize: "cover",
+      backgroundPostion: "1380px 600px",
       backgroundRepeat: "no-repeat",
     },
   };
